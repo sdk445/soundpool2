@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/circle_center"
+        android:layout_width="503dp"
+        android:layout_height="625dp"
+        android:backgroundTint="@color/material_dynamic_neutral_variant10"
+        android:src="@drawable/animated_circle"
+
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.393" />
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="768dp"
+        android:text="@string/app_start_msg"
+        app:layout_marginBaseline="30dp"
+        android:background="@color/white"
+        android:fontFamily="@font/ubuntu_mono"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        />
+
+    <TextView
+        android:id="@+id/anim_text"
+        android:layout_width="177dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="291dp"
+        android:layout_marginEnd="196dp"
+        android:layout_marginBottom="289dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/ubuntu_mono"
+        android:text="hello"
+        android:textSize="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/circle_center"
+        app:layout_constraintEnd_toEndOf="@+id/circle_center"
+        app:layout_constraintStart_toStartOf="@+id/circle_center"
+        app:layout_constraintTop_toTopOf="@+id/circle_center" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

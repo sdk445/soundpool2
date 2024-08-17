@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4BB2F9"
+    android:padding="16dp"
+    android:fontFamily="@font/ubuntu_mono">
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="205dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/material_dynamic_neutral90"
+        android:outlineAmbientShadowColor="@color/black"
+        android:padding="16dp"
+        android:text="back"
+        android:textSize="18sp"
+        android:translationZ="@dimen/cardview_compat_inset_shadow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.606" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="230dp">
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="337dp"
+        android:layout_height="230dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="123dp">
+
+    </WebView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_greet">Continue to SoundPool</string>
+    <string name="app_name">soundPool</string>
+    <string name="app_start_msg"> Tap to know more</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--    <string name="app_greet">soundPool</string>-->
+    <!--    <string name="app_greet">soundPool</string>-->
+
+</resources>
